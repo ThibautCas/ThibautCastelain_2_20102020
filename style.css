@@ -4,6 +4,8 @@ body {
     display: block;
 }
 
+/* HEADER */
+
 header {
     display: flex;
     flex-wrap: wrap;
@@ -62,3 +64,53 @@ button {
     background-color: #DEEBFF;
 
 }
+
+/* SEARCH */
+
+.search-bar 
+{
+    margin-bottom: 35px;
+}
+.search 
+{
+    display: flex;
+    margin-bottom: 3%;
+}
+.fa-map-marker-alt 
+{
+    padding: 24px 20px;
+    background-color: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+.city 
+{
+    width: 250px;
+    height: 50px;
+    border: none;
+    border-top: 1px solid #f2f2f2;
+    border-bottom: 1px solid #f2f2f2;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 700;
+    list-style-type: none;
+    text-decoration: none;
+}
+.buttonsearch 
+{
+    background: transparent;
+    border: none;
+    width: 150px;
+    height: 50px;
+    border: none;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background-color: #0065fc;
+    color: white;
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+/* FILTER */
+
