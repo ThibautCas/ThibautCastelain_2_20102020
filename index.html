@@ -11,20 +11,44 @@
 
 <body>
     <header>
-        <img src="./images/logo/Reservia@3x.png" alt="Reservia Logo" class="logo">
+        <img src="./images/logo/Reservia.svg" alt="Reservia Logo" >
         <nav>
             <ul>
-                <li>Hébergements</li>
+                <li id="hotels">Hébergements</li>
                 <li>Activités</li>
-                <li>S'inscrire</li>
+                <li id="sign-in">S'inscrire</li>
             </ul>
         </nav>
-        <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
-        <h2>En plein centre-ville ou en pleine nature</h2>
-        <div class="search">
-            <i class="fas fa-map-marker-alt" class="icon"></i>
-            <input type="search">
-            <button>Rechercher</button>
-        </div>
+        <div class="title">
+            <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
+            <p>En plein centre-ville ou en pleine nature</p>
+        </div> 
     </header>
+
+    <section>            <!--Barre de rechreche-->
+            <div class="search">
+                <i class="fas fa-map-marker-alt" ></i>
+                <input class="city"  type="search" value="Marseille, France" >
+                <button class="buttonsearch" type="submit" >Rechercher</button>
+            </div>
+            <div class="filter">
+                <ul>
+                    <li>Filtres</li>
+                    <li>
+                        <i class="fas fa-money-bill-wave">Economique</i>
+                    </li>
+                    <li>
+                        <i class="fas fa-child">Familial</i>
+                    </li>
+                    <li>
+                        <i class="fas fa-heart">Romantique</i>
+                    </li>
+                    <li>
+                        <i class="fas fa-dog">Animaux autorisés</i>
+                    </li>
+                </ul>
+
+            </div>
+    </section>
+
 </body>
