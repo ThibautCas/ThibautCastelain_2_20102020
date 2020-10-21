@@ -1,12 +1,13 @@
 body {
     font-family: Raleway, Arial, Helvetica, sans-serif;
-    margin: 0;
+    margin: 10px;
     display: block;
 }
 
 header {
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 .logo {
@@ -27,21 +28,37 @@ ul li {
     }
    
 
-#hebergements {
+#hotels {
     color: blue;
 }
 
-#sinscrire {
+#sign-in {
     color: blue;
     font-weight: bold;
 }
-#search-icon {
-    background-color: lightslategray;
+
+ h1{
+    font-size: 18px;
+}
+
+.search {
+    border-collapse: collapse;
+    height: 20px;
+    margin: 10px;
+}
+.fa-map-marker-alt {
+    background-color: #F2F2F2;
 }
 
 button {
-    background-color: blue;
-    margin: 10px;
+    background-color: #0065FC;
     color: white;
-    border-radius: 8px;
+}
+
+.filter {
+    border-collapse: collapse;
+    height: 12px;
+    margin: 10px;
+    background-color: #DEEBFF;
+
 }
