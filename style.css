@@ -43,28 +43,6 @@ ul li {
     font-size: 18px;
 }
 
-.search {
-    border-collapse: collapse;
-    height: 20px;
-    margin: 10px;
-}
-.fa-map-marker-alt {
-    background-color: #F2F2F2;
-}
-
-button {
-    background-color: #0065FC;
-    color: white;
-}
-
-.filter {
-    border-collapse: collapse;
-    height: 12px;
-    margin: 10px;
-    background-color: #DEEBFF;
-
-}
-
 /* SEARCH */
 
 .search-bar 
@@ -74,11 +52,11 @@ button {
 .search 
 {
     display: flex;
-    margin-bottom: 3%;
+    margin-bottom: 35px;
 }
 .fa-map-marker-alt 
 {
-    padding: 24px 20px;
+    padding: 16px 20px;
     background-color: #f2f2f2;
     border: 1px solid #f2f2f2;
     border-top-left-radius: 15px;
@@ -93,7 +71,7 @@ button {
     border-bottom: 1px solid #f2f2f2;
     text-align: center;
     font-size: 1rem;
-    font-weight: 700;
+    font-weight: bold;
     list-style-type: none;
     text-decoration: none;
 }
@@ -109,7 +87,7 @@ button {
     background-color: #0065fc;
     color: white;
     font-size: 1rem;
-    font-weight: 700;
+    font-weight: bold;
 }
 
 /* FILTER */
