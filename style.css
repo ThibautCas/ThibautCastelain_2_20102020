@@ -92,3 +92,41 @@ ul li {
 
 /* FILTER */
 
+.filter 
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.filter h2
+{
+    margin-right: 30px;
+    margin-left: 30px;
+    font-size: 1rem;
+    font-weight: bolder;
+}
+.filter button 
+{
+    display: flex;
+    align-items: center;
+    height: 50px;
+    font-size: 1rem;
+    font-weight: bold;
+    border: 2px solid #f2f2f2;
+    border-radius: 50px;
+    padding: 0 20px 0 0;
+    margin-right: 25px;
+    background-color: white;
+}
+.filter .icon, p .icon
+{
+    display: flex;
+    height: 50px;
+    width: 50px;
+    align-items: center;
+    justify-content: center;
+    background-color: #deebff;
+    border-radius: 50px;
+    color: #0065fc;
+}
+
