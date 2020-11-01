@@ -171,7 +171,7 @@
         display: flex;
         flex-direction: column;
         max-width: 950px;
-        padding: 40px 0;
+        padding: 20px 0;
         margin-right: 20px;
         background-color: #f2f2f2;
         border-radius: 15px;
@@ -236,6 +236,8 @@
         font-size: 1.06rem;
         font-weight: bold;
         padding-left: 40px;
+        text-decoration: none;
+        color: black;
     }
 
     /* Populaire */
@@ -247,10 +249,11 @@
     flex-direction: column;
     align-items: center;
     margin-left: 30px;
-    padding: 40px 20px 0 20px;
+    padding: 20px 20px 0 20px;
     background-color: #f2f2f2;
     border-radius: 15px;
 }
+
 .popular .fa-chart-line 
 {
     margin-left: 90px;
@@ -259,14 +262,26 @@
 .cardpopular 
 {
     display: flex;
-    width: 334px;
-    height: 134px;
+    width: 300px;
+    height: 140px;
     padding: 5px;
 }
 .popular img
 {
-    width: 127px;
-    height: 134px;
+    width: 130px;
+    height: 140px;
     border-bottom-left-radius: 10px;
     border-top-left-radius: 10px;
+}
+.popular-text 
+{
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+
+.popular .star 
+{
+    margin-top: 25px;
 }
