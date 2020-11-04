@@ -162,7 +162,7 @@ h1 {
 
 .container-results {
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
   max-height: 650px;
 }
 
@@ -230,7 +230,7 @@ h1 {
 }
 
 .cardmain img {
-  width: 180px;
+  width: 240px;
   height: 114px;
   object-fit: cover;
   border-top-left-radius: 10px;
