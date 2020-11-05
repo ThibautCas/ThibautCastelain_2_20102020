@@ -92,6 +92,11 @@ h1 {
   font-size: 1rem;
   font-weight: bold;
 }
+
+.fa-search {
+  visibility: hidden;
+}
+
 /* Filtre */
 
 .filter {
@@ -174,7 +179,6 @@ h1 {
   margin-right: 20px;
   background-color: #f2f2f2;
   border-radius: 15px;
-  overflow: scroll;
 }
 
 .results h2 {
@@ -263,7 +267,7 @@ h1 {
 
 .cardpopular {
   display: flex;
-  width: 300px;
+  width: 280px;
   height: 140px;
   padding: 5px;
   box-shadow: 0px 0px 10px 10px rgba(0, 0, 0, 0.05);
