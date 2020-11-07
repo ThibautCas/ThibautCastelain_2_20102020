@@ -277,19 +277,19 @@
 
 /* Activités */
 
-@media all and (max-width:1200px) {
+@media all and (max-width: 1200px) {
     #activities img {
         width: 250px;
     }
 }
 
-@media all and (min-width:1500px) {
+@media all and (min-width: 1500px) {
     #activities img {
         width: 500px;
     }
 }
 
-@media all and (max-width:1023px) {
+@media all and (max-width: 1023px) {
     .content-activities {
         flex-direction: column;
         margin: 20px;
@@ -298,5 +298,34 @@
         width: 930px;
         height: 300px;
         object-fit: cover;
+    }
+    .card-activities h4 {
+        font-size: 1.6rem;
+    }
+}
+
+
+/* Footer */
+
+@media all and (max-width: 767px) {
+    footer {
+        padding: 15px;
+    }
+    .footer-container {
+        flex-direction: column;
+    }
+    footer h3 {
+        padding: 46px 0 9px 0;
+    }
+    .footer-container div {
+        margin-right: 0;
+        margin-left: 20px;
+        padding-bottom: 0;
+    }
+}
+
+@media all and(max-width:768px) {
+    footer {
+        flex-direction: column;
     }
 }
