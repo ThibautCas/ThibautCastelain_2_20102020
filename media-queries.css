@@ -94,12 +94,13 @@
         margin: 0px 40px 10px 40px;
     }
     .city {
-        width: auto;
+        width: 400px;
+        height: 80px;
     }
     .buttonsearch {
         display: block;
-        width: 50px;
-        height: 50px;
+        width: 80px;
+        height: 80px;
         border: none;
         border-top-right-radius: 10px;
         border-bottom-right-radius: 10px;
@@ -118,6 +119,13 @@
         color: #0065fc;
         background-color: #deebff;
         border: 1px solid #0065fc;
+    }
+    .fa-search,
+    .fa-map-marker-alt {
+        font-size: 2rem;
+    }
+    .fa-map-marker-alt {
+        padding: 20px;
     }
     .filter {
         padding: 0 10px 0 20px;
@@ -167,13 +175,27 @@
     .more {
         padding: 0;
         margin-left: 20px;
+        font-size: 1.4rem;
     }
     .cardmain img {
-        width: 326px;
-        height: 114px;
+        width: 970px;
+        height: 300px;
     }
     .results .cardlink {
         margin: 6px 0;
+    }
+    .card h4 {
+        font-size: 1.6rem;
+    }
+    .card p {
+        font-size: 1.4rem;
+        margin: 25px 0;
+    }
+    .star {
+        font-size: 1.5rem;
+    }
+    .popular .star {
+        margin-top: 130px;
     }
 }
 
@@ -189,7 +211,7 @@
     }
 }
 
-@media all and (min-width: 768px) and (max-width: 1200px) {
+@media all and (min-width: 768px) and (max-width: 1023px) {
     .popular {
         align-items: flex-start;
     }
@@ -214,6 +236,14 @@
         justify-content: space-between;
         margin-left: 10px;
         margin-right: 10px;
+    }
+    .cardpopular {
+        width: 930px;
+        height: 300px
+    }
+    .popular img {
+        width: 300px;
+        height: 300px;
     }
 }
 
@@ -250,5 +280,23 @@
 @media all and (max-width:1200px) {
     #activities img {
         width: 250px;
+    }
+}
+
+@media all and (min-width:1500px) {
+    #activities img {
+        width: 500px;
+    }
+}
+
+@media all and (max-width:1023px) {
+    .content-activities {
+        flex-direction: column;
+        margin: 20px;
+    }
+    #activities img {
+        width: 930px;
+        height: 300px;
+        object-fit: cover;
     }
 }
