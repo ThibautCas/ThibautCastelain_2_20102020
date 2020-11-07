@@ -4,10 +4,9 @@ body {
     display: block;
 }
 
-
 a {
-  color: black;
-  text-decoration: none;
+    color: black;
+    text-decoration: none;
 }
 
 
@@ -36,7 +35,6 @@ nav ul li {
     line-height: 50px;
     text-align: center;
 }
-
 
 nav ul li a {
     color: black;
@@ -104,7 +102,6 @@ h1 {
     font-weight: bold;
 }
 
-
 .buttonsearch:hover {
     color: #0065fc;
     background-color: #deebff;
@@ -115,6 +112,7 @@ h1 {
 .fa-search {
     visibility: hidden;
 }
+
 
 /* Filtre */
 
@@ -187,7 +185,6 @@ h1 {
 /* Résultats */
 
 .container-results {
-
     display: flex;
     justify-content: space-evenly;
     max-height: 650px;
@@ -201,7 +198,6 @@ h1 {
     margin-right: 20px;
     background-color: #f2f2f2;
     border-radius: 15px;
-
 }
 
 .results h2 {
@@ -216,11 +212,9 @@ h1 {
 }
 
 .cardlink {
-
     margin: 15px 0 20px 0;
     color: black;
     text-decoration: none;
-
 }
 
 .card {
@@ -259,7 +253,6 @@ h1 {
 }
 
 .cardmain img {
-
     width: 160px;
     height: 114px;
     object-fit: cover;
@@ -273,7 +266,6 @@ h1 {
     padding-left: 40px;
     text-decoration: none;
     color: black;
-
 }
 
 
@@ -322,48 +314,60 @@ h1 {
 }
 
 .popular .star {
-  margin-top: 25px;
+    margin-top: 25px;
 }
+
 
 /* Activités */
 
 .content-activities {
-  display: flex;
-  flex-direction: row;
-  padding: 20px 0;
-  justify-content: space-evenly;
+    display: flex;
+    flex-direction: row;
+    padding: 20px 0;
+    justify-content: space-evenly;
 }
 
 .activities-row {
-  display: flex;
-  flex-direction: column;
-  margin: 0.5%;
-  
+    display: flex;
+    flex-direction: column;
+    margin: 0.5%;
 }
 
 #activities img {
-  width: 300px;
-  object-fit: cover;
-  border-top-left-radius: 10px;
-  border-top-right-radius: 10px;
+    width: 300px;
+    object-fit: cover;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
 }
 
-.activities-big img{
-  height: 500px;
+.activities-big img {
+    height: 390px;
 }
 
-.activities-small img {
-  height : 200px;
+.activities-fort img {
+    height: 180px;
+}
+
+.activities-frioul img {
+    height: 110px
+}
+
+.activities-notre-dame img {
+    height: 140px;
+}
+
+.activities-longchamp img {
+    height: 150px;
 }
 
 .card-activities {
-  border-radius: 10px;
-  box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.25);
-  padding-bottom: 10px;
-  margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.25);
+    padding-bottom: 10px;
+    margin-bottom: 20px;
 }
 
 .card-activities h4 {
-  margin-left: 20px;
+    margin-left: 20px;
     margin-top: 25px;
 }
