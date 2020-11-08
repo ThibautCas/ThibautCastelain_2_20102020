@@ -349,7 +349,7 @@ h1 {
 }
 
 .activities-frioul img {
-    height: 110px
+    height: 110px;
 }
 
 .activities-notre-dame img {
@@ -370,4 +370,53 @@ h1 {
 .card-activities h4 {
     margin-left: 20px;
     margin-top: 25px;
+}
+
+
+/* Footer */
+
+footer {
+    width: 100%;
+    background-color: #f2f2f2;
+}
+
+.footer-container {
+    max-width: 1400px;
+    display: flex;
+    margin: auto;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.footer-container div {
+    margin-right: 100px;
+    padding-bottom: 30px;
+}
+
+footer h3 {
+    padding: 45px 0 10px 0;
+}
+
+footer ul {
+    list-style: none;
+    padding: 0;
+}
+
+footer ul li {
+    font-size: 1.06rem;
+    padding: 10px 0;
+}
+
+footer ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+footer ul li a:hover {
+    color: #0065fc;
+}
+
+h3 {
+    font-size: 1.06rem;
+    font-weight: bold;
 }

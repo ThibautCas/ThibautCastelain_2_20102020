@@ -239,7 +239,7 @@
     }
     .cardpopular {
         width: 930px;
-        height: 300px
+        height: 300px;
     }
     .popular img {
         width: 300px;
@@ -277,19 +277,19 @@
 
 /* Activités */
 
-@media all and (max-width:1200px) {
+@media all and (max-width: 1200px) {
     #activities img {
         width: 250px;
     }
 }
 
-@media all and (min-width:1500px) {
+@media all and (min-width: 1500px) {
     #activities img {
         width: 500px;
     }
 }
 
-@media all and (max-width:1023px) {
+@media all and (max-width: 1023px) {
     .content-activities {
         flex-direction: column;
         margin: 20px;
@@ -298,5 +298,23 @@
         width: 930px;
         height: 300px;
         object-fit: cover;
+    }
+    .card-activities h4 {
+        font-size: 1.6rem;
+    }
+}
+
+
+/* Footer */
+
+@media all and (max-width: 767px) {
+    .footer-container {
+        flex-direction: column;
+    }
+    footer h3 {
+        font-size: 2rem;
+    }
+    footer a {
+        font-size: 1.2rem;
     }
 }
