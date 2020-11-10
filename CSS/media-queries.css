@@ -56,7 +56,7 @@
         nav li a {
             margin-right: 30px;
             padding-left: 50px;
-            font-size: 1.5rem;
+            font-size: 2rem;
         }
         header nav {
             position: relative;
@@ -87,12 +87,14 @@
         }
         .search-bar p {
             font-size: 1.3rem;
+            margin: 0 0 35px 10px;
         }
         .search {
-            margin: 0px 40px 10px 40px;
+            margin-bottom: 10px;
+            justify-content: center;
         }
         .city {
-            width: 400px;
+            width: 500px;
             height: 80px;
             font-size: 1.5rem;
         }
@@ -128,13 +130,15 @@
         }
         .filter {
             padding: 0 10px 0 20px;
+            margin: 10px;
         }
         .filter button {
             margin: 0 30px 12px 0;
-            font-size: 1.5rem;
+            font-size: 1.7rem;
         }
         .filter h2 {
             flex-basis: 100%;
+            font-size: 1.5rem;
         }
     }
     /* Hébergements */
@@ -177,7 +181,7 @@
             font-size: 1.4rem;
         }
         .cardmain img {
-            width: 970px;
+            width: 940px;
             height: 300px;
         }
         .results .cardlink {
@@ -237,7 +241,7 @@
             margin-right: 10px;
         }
         .cardpopular {
-            width: 930px;
+            width: 900px;
             height: 300px;
         }
         .popular img {
@@ -276,7 +280,7 @@
     
     @media all and (max-width: 1200px) {
         #activities img {
-            width: 250px;
+            width: 220px;
         }
     }
     
@@ -289,6 +293,7 @@
     @media all and (max-width: 1023px) {
         #activities h2 {
             font-size: 2rem;
+            margin: 30px 0 30px 20px;
         }
         .content-activities {
             flex-direction: column;
@@ -308,6 +313,7 @@
     @media all and (max-width: 1023px) {
         .footer-container {
             flex-direction: column;
+            margin-left: 20px;
         }
         footer h3 {
             font-size: 3rem;
