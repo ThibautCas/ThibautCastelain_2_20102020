@@ -279,9 +279,9 @@
     }
 }
 
-@media all and (min-width: 1440px) {
+@media all and (min-width: 1170px) {
     .cardmain img {
-        width: 240px;
+        width: 230px;
     }
 }
 
@@ -294,9 +294,9 @@
     }
 }
 
-@media all and (min-width: 1500px) {
+@media all and (min-width: 1700px) {
     #activities img {
-        width: 500px;
+        width: 400px;
     }
 }
 
