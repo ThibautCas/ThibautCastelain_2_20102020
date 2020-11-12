@@ -109,8 +109,7 @@
         width: 80px;
         height: 80px;
         border: none;
-        border-top-right-radius: 10px;
-        border-bottom-right-radius: 10px;
+        border-radius: 10px;
         background-color: #0065fc;
         color: white;
     }
@@ -132,7 +131,7 @@
         font-size: 2rem;
     }
     .fa-map-marker-alt {
-        padding: 20px;
+        padding: 20px 30px;
     }
     .filter {
         padding: 0 10px 0 20px;
