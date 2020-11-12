@@ -368,8 +368,9 @@ h1 {
 }
 
 .card-activities h4 {
-    margin-left: 20px;
+    margin-left: 10px;
     margin-top: 25px;
+    font-size: 0.9rem;
 }
 
 
